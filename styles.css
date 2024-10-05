@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.fondo {
+    background-color: rgb(160, 158, 158);
+display: flex;
+
+}
+.ladoiz,.ladode{
+   display: flex;
+align-items: center; 
+justify-content: center;
+gap: 8vh 0;
+flex-direction: column;
+width: 15vw;
+}
+
+
+.fondo:first-of-type(input){
+    flex-direction: column;
+    
+}
+
+ .contorno {
+    border: 15px black solid;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 70vw;
+    height: 100vh;
+    background-color: white;
+
+} 
+
+
+ input {
+    width: 60%;
+    height: 14%;
+    background-color: rgb(169, 169, 170);
+}
